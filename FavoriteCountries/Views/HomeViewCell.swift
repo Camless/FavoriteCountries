@@ -8,13 +8,26 @@
 import SwiftUI
 
 struct HomeViewCell: View {
+	@State var country: Country
+	
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+		VStack {
+			HStack {
+				Text(country.name)
+				Spacer()
+			}
+			HStack {
+				Text("Details: \(country.userFavoriteDetails)")
+				Spacer()
+			}
+		}
+		
+		
     }
 }
 
 struct HomeViewCell_Previews: PreviewProvider {
     static var previews: some View {
-        HomeViewCell()
+        HomeViewCell(country: Country(name: "USA", details: "BBQ"))
     }
 }

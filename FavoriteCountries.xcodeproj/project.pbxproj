@@ -8,17 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		07F7DA3227F79586003BBAC8 /* FavoriteCountriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7DA3127F79586003BBAC8 /* FavoriteCountriesApp.swift */; };
-		07F7DA3427F79586003BBAC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7DA3327F79586003BBAC8 /* ContentView.swift */; };
+		07F7DA3427F79586003BBAC8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7DA3327F79586003BBAC8 /* HomeView.swift */; };
 		07F7DA3627F79588003BBAC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F7DA3527F79588003BBAC8 /* Assets.xcassets */; };
 		07F7DA3927F79588003BBAC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F7DA3827F79588003BBAC8 /* Preview Assets.xcassets */; };
+		07F7DA4027F79666003BBAC8 /* SearchCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7DA3F27F79666003BBAC8 /* SearchCountryView.swift */; };
+		07F7DA4227F79670003BBAC8 /* CountryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7DA4127F79670003BBAC8 /* CountryDetailsView.swift */; };
+		07F7DA4627F797E4003BBAC8 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7DA4527F797E4003BBAC8 /* Country.swift */; };
+		07F7DA4927F79A29003BBAC8 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7DA4827F79A29003BBAC8 /* HomeViewViewModel.swift */; };
+		07F7DA4C27F7A2B4003BBAC8 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7DA4B27F7A2B4003BBAC8 /* HomeViewCell.swift */; };
+		07F7DA4E27F7B1C2003BBAC8 /* SearchCountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7DA4D27F7B1C2003BBAC8 /* SearchCountryViewModel.swift */; };
+		07F7DA5527F92456003BBAC8 /* TextEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7DA5427F92456003BBAC8 /* TextEditorExtension.swift */; };
+		07F7DA5827FA4DEA003BBAC8 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07F7DA5627FA4DEA003BBAC8 /* Model.xcdatamodeld */; };
+		07F7DA7B27FA8C1F003BBAC8 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7DA7A27FA8C1F003BBAC8 /* PersistenceController.swift */; };
+		07F7DA7D27FB5D5B003BBAC8 /* CountryDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F7DA7C27FB5D5B003BBAC8 /* CountryDetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07F7DA2E27F79586003BBAC8 /* FavoriteCountries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteCountries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F7DA3127F79586003BBAC8 /* FavoriteCountriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCountriesApp.swift; sourceTree = "<group>"; };
-		07F7DA3327F79586003BBAC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		07F7DA3327F79586003BBAC8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		07F7DA3527F79588003BBAC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07F7DA3827F79588003BBAC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07F7DA3F27F79666003BBAC8 /* SearchCountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCountryView.swift; sourceTree = "<group>"; };
+		07F7DA4127F79670003BBAC8 /* CountryDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailsView.swift; sourceTree = "<group>"; };
+		07F7DA4427F7971C003BBAC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		07F7DA4527F797E4003BBAC8 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		07F7DA4827F79A29003BBAC8 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
+		07F7DA4B27F7A2B4003BBAC8 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		07F7DA4D27F7B1C2003BBAC8 /* SearchCountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCountryViewModel.swift; sourceTree = "<group>"; };
+		07F7DA5427F92456003BBAC8 /* TextEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorExtension.swift; sourceTree = "<group>"; };
+		07F7DA5727FA4DEA003BBAC8 /* Country.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Country.xcdatamodel; sourceTree = "<group>"; };
+		07F7DA7A27FA8C1F003BBAC8 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		07F7DA7C27FB5D5B003BBAC8 /* CountryDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +72,15 @@
 		07F7DA3027F79586003BBAC8 /* FavoriteCountries */ = {
 			isa = PBXGroup;
 			children = (
+				07F7DA4427F7971C003BBAC8 /* README.md */,
 				07F7DA3127F79586003BBAC8 /* FavoriteCountriesApp.swift */,
-				07F7DA3327F79586003BBAC8 /* ContentView.swift */,
-				07F7DA3527F79588003BBAC8 /* Assets.xcassets */,
+				07F7DA4327F7967B003BBAC8 /* Views */,
+				07F7DA4A27F79F3D003BBAC8 /* ViewModels */,
+				07F7DA4727F797E8003BBAC8 /* Models */,
+				07F7DA5327F92443003BBAC8 /* Support */,
 				07F7DA3727F79588003BBAC8 /* Preview Content */,
+				07F7DA3527F79588003BBAC8 /* Assets.xcassets */,
+				07F7DA5627FA4DEA003BBAC8 /* Model.xcdatamodeld */,
 			);
 			path = FavoriteCountries;
 			sourceTree = "<group>";
@@ -65,6 +91,44 @@
 				07F7DA3827F79588003BBAC8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07F7DA4327F7967B003BBAC8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				07F7DA3327F79586003BBAC8 /* HomeView.swift */,
+				07F7DA3F27F79666003BBAC8 /* SearchCountryView.swift */,
+				07F7DA4127F79670003BBAC8 /* CountryDetailsView.swift */,
+				07F7DA4B27F7A2B4003BBAC8 /* HomeViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		07F7DA4727F797E8003BBAC8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				07F7DA4527F797E4003BBAC8 /* Country.swift */,
+				07F7DA7A27FA8C1F003BBAC8 /* PersistenceController.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		07F7DA4A27F79F3D003BBAC8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				07F7DA4827F79A29003BBAC8 /* HomeViewViewModel.swift */,
+				07F7DA4D27F7B1C2003BBAC8 /* SearchCountryViewModel.swift */,
+				07F7DA7C27FB5D5B003BBAC8 /* CountryDetailsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		07F7DA5327F92443003BBAC8 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				07F7DA5427F92456003BBAC8 /* TextEditorExtension.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +201,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07F7DA3427F79586003BBAC8 /* ContentView.swift in Sources */,
+				07F7DA4227F79670003BBAC8 /* CountryDetailsView.swift in Sources */,
+				07F7DA3427F79586003BBAC8 /* HomeView.swift in Sources */,
+				07F7DA7D27FB5D5B003BBAC8 /* CountryDetailsViewModel.swift in Sources */,
+				07F7DA4C27F7A2B4003BBAC8 /* HomeViewCell.swift in Sources */,
+				07F7DA7B27FA8C1F003BBAC8 /* PersistenceController.swift in Sources */,
 				07F7DA3227F79586003BBAC8 /* FavoriteCountriesApp.swift in Sources */,
+				07F7DA4027F79666003BBAC8 /* SearchCountryView.swift in Sources */,
+				07F7DA4E27F7B1C2003BBAC8 /* SearchCountryViewModel.swift in Sources */,
+				07F7DA5527F92456003BBAC8 /* TextEditorExtension.swift in Sources */,
+				07F7DA4927F79A29003BBAC8 /* HomeViewViewModel.swift in Sources */,
+				07F7DA5827FA4DEA003BBAC8 /* Model.xcdatamodeld in Sources */,
+				07F7DA4627F797E4003BBAC8 /* Country.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +413,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		07F7DA5627FA4DEA003BBAC8 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				07F7DA5727FA4DEA003BBAC8 /* Country.xcdatamodel */,
+			);
+			currentVersion = 07F7DA5727FA4DEA003BBAC8 /* Country.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 07F7DA2627F79586003BBAC8 /* Project object */;
 }
